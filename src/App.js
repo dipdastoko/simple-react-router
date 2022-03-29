@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home/Home';
 import Friends from './components/Friends/Friends';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import FreindDetail from './components/FriendDetail/FreindDetail';
 import Culture from './components/Culture/Culture';

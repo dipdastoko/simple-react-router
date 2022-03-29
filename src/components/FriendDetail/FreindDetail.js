@@ -16,7 +16,6 @@ const FreindDetail = () => {
             <h1>{friend.name}</h1>
             <h2>{friend.phone}</h2>
             <h4>{friend.company?.name}</h4>
-            {/* <p>Works at: {friend.company.name}</p> */}
         </div>
     );
 };
