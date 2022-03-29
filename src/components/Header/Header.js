@@ -20,6 +20,9 @@ const Header = () => {
             <NavLink style={({ isActive }) =>
                 isActive ? activeStyle : undefined
             } to='/about'>About</NavLink>
+            <NavLink style={({ isActive }) =>
+                isActive ? activeStyle : undefined
+            } to='/about/culture'>Culture</NavLink>
         </div>
     );
 };
