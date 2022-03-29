@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import FreindDetail from './components/FriendDetail/FreindDetail';
 import Culture from './components/Culture/Culture';
+import PostDetail from './components/PostDetail/PostDetail';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/about' element={<About></About>}></Route>
           <Route path='/about/culture' element={<Culture></Culture>}></Route>
           <Route path='*' element={<NotFound></NotFound>}></Route>
+          <Route path='post/:postId' element={<PostDetail></PostDetail>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
